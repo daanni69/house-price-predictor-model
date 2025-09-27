@@ -1,13 +1,7 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.venv
-env/
-venv/
-.Python
+*.py[cod]
+*$py.class
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
@@ -15,20 +9,23 @@ venv/
 # VSCode settings
 .vscode/
 
+# Data files
+*.csv
+*.tsv
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+*.dill
+
 # Logs
 *.log
 
-# Data files (if large, optional to ignore)
-*.csv
-*.tsv
-*.h5
-*.pkl
-*.joblib
-
-# XGBoost / CatBoost / LightGBM temporary files
-catboost_info/
-*.model
-
-# OS files
+# System files
 .DS_Store
 Thumbs.db
+
+# Python virtual environments
+venv/
+env/
