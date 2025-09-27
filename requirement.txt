@@ -1,6 +1,11 @@
-streamlit==1.50.0
-pandas==2.3.2
-numpy==2.3.3
-plotly==6.3.0
-dill==0.4.0
+streamlit
+numpy
+pandas
+dill
+plotly
+pydeck
+matplotlib
+seaborn
+scikit-learn
 xgboost
+joblib

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Data files (if large, optional to ignore)
+*.csv
+*.tsv
+*.h5
+*.pkl
+*.joblib
+
+# XGBoost / CatBoost / LightGBM temporary files
+catboost_info/
+*.model
+
+# OS files
+.DS_Store
+Thumbs.db
