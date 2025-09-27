@@ -1,17 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# VSCode settings
+# VS Code settings
 .vscode/
 
-# Data files
-*.csv
-*.tsv
+# System files
+.DS_Store
+Thumbs.db
+
+# Python environment
+venv/
+env/
+*.env
+
+# Logs
+*.log
 
 # Model files
 *.pkl
@@ -19,13 +27,15 @@ __pycache__/
 *.joblib
 *.dill
 
-# Logs
-*.log
+# Plots / images / temp files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
 
-# System files
-.DS_Store
-Thumbs.db
+# Streamlit cache
+.streamlit/
 
-# Python virtual environments
-venv/
-env/
+# Others
+*.csv
